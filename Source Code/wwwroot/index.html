@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="description" conteny="Computer Networking">
+   <meta name="viewport" content="width = device-width, intial-scale = 1.0">
+   <title>Login Form</title>
+</head>
+
+<style>
+   input[type=text],
+   input[type=password] {
+      width: 40%;
+      padding: 12px 20px;
+      margin: -10px 30%;
+      display: inline-block;
+      border: 1px solid grey;
+      border-radius: 4px;
+      box-sizing: border-box;
+   }
+
+   button {
+      text-align: center;
+      border-radius: 4px;
+      border: 1px solid black;
+      color: aliceblue;
+      background-color: #73AD21;
+      padding: 12px 20px;
+      width: 40%;
+      font-size: 17px;
+      display: inline-block;
+      margin: 30px 30%;
+      cursor: pointer;
+   }
+
+   button:hover {
+      opacity: 0.8;
+   }
+</style>
+
+<body style="background-image: url(loginbackground.jpg); background-position: center; background-size: cover;">
+   <header>
+      <h1 style="color:greenyellow; text-align:center; position:relative; margin-top: 7%"><strong>Login Form</strong>
+      </h1>
+   </header>
+
+   <main>
+      <form method="POST">
+         <p style="font-family: 'Courier New', Courier, monospace; text-indent: 30%;"><b><strong>Username</strong></b>
+         </p>
+         <input type="text" placeholder="Enter username" name="userid" required>
+         <p style="font-family: 'Courier New', Courier, monospace; text-indent: 30%;"><b><strong>Password</strong></b>
+         </p>
+         <input type="password" placeholder="Enter password" name="password" required>
+         <!-- <button type="submit" onclick="window.location.href='info.html';">Login</button> -->
+
+         <form action="https://google.com">
+            <button type="submit">Login</button>
+         </form>
+         <!-- <button type=" button" onclick="window.location.href='info.html';">Login</button> -->
+      </form>
+   </main>
+
+</body>
+
+</html>

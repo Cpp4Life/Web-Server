@@ -1,0 +1,53 @@
+body
+{
+   font-family:'Times New Roman', Times, serif;
+   background: url(SanFrancisco.jpg);
+   background-size:cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+}
+
+.clearfix {
+   overflow: auto;
+ }
+
+.container
+{
+   margin: 5% 50%;
+   transform:translate(-50%, -50%);
+   width:800px;
+   padding:30px;
+   background:#fff;
+   box-sizing:border-box;
+   border-radius:10px;
+}
+
+.circle
+{
+   float: left;
+   width:30%;
+   height:100%;
+   border-radius: 50%;
+}
+
+img
+{
+   width: 100%;  
+   border-radius: 50%;  
+}
+
+.info
+{
+   float: left;
+   margin-left:10px;
+   width:65%;
+}
+
+p
+{
+   text-align: left;
+   line-height: 20px;
+   font-size: 25px;
+}
+

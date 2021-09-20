@@ -1,0 +1,33 @@
+#customers {
+   font-family: Arial, Helvetica, sans-serif;
+   border-collapse: collapse;
+   width: 100%;
+}
+
+#customers td,
+#customers th {
+   border-bottom: 1px solid #ddd;
+   padding: 8px;
+   text-align: left;
+}
+
+#customers tr:hover {
+   background-color: #ddd;
+}
+
+#customers th {
+   padding-top: 12px;
+   padding-bottom: 12px;
+   background-color: #4CAF50;
+   color: white;
+}
+
+#containers {
+   margin: 5% 50%;
+   transform: translate(-50%, -50%);
+   width: 800px;
+   padding: 30px;
+   background: #fff;
+   box-sizing: border-box;
+   border-radius: 10px;
+}
